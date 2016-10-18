@@ -1,1 +1,49 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <title>Matthew Niemer</title>
+    <meta name="description" content="Matthew Niemer is a Computer Science BS/MS student at Northwestern University.">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="header">Matthew Niemer</h1>
+
+    <button class="accordion">About</button>
+    <div class="panel">
+        <p>I'm Matt, a CS junior at Northwestern University. 
+        I really like working at the intersection of games, music, and tech.</p>
+        
+        <p>I've previously worked at Hagerty Insurance Agency, and I'm currently involved in a couple of projects on campus.
+        Here is my resume - you can reach me anytime at mattniemer@u.northwestern.edu.</p>
+        
+        <p>In my spare time, I play ultimate frisbee, enjoy the great outdoors, and play an unhealthy amount of Tetris.</p>
+        
+    </div>
+
+    
+    <button class="accordion">Projects</button>
+    <div class="panel">
+        <p>Some text about projects...</p>
+    </div>
+    
+    
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function(){
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+            }
+        }
+    </script>
+</body>
+
+
+
+</html>
