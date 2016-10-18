@@ -16,7 +16,7 @@ body {
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 80%;
+    width: 70%;
     max-width: 500px;
     text-align: left;
     border: none;
@@ -34,13 +34,13 @@ body {
     overflow: hidden;
     transition: 0.8s ease-in-out;
     opacity: 0;
-    width: 77%;
+    width: 67%;
     max-width: 480px;
 }
 
 .panel.show {
     opacity: 1;
-    max-height: 600px;
+    max-height: 1000px;
 }
 
 #footer {
