@@ -5,37 +5,41 @@ body {
     padding-left: 20%;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
-button.accordion {
+.links{
+    target-name:new;
+    target-new:tab;
+    color: #8CC739;
+}
+
+.accordion {
     font-family: 'Ubuntu', sans-serif;
     background-color: #CECFCE;
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 40%;
+    width: 80%;
+    max-width: 500px;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active, button.accordion:hover {
+.accordion.active, .accordion:hover {
     background-color: #999999;
 }
 
-/* Style the accordion panel. Note: hidden by default */
-div.panel {
+.panel {
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
     transition: 0.8s ease-in-out;
     opacity: 0;
-    width: 37%;
+    width: 77%;
+    max-width: 480px;
 }
 
-/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
-div.panel.show {
+.panel.show {
     opacity: 1;
     max-height: 500px;
 }
