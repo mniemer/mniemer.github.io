@@ -7,8 +7,6 @@ body {
 }
 
 .links{
-    target-name:new;
-    target-new:tab;
     color: #8CC739;
 }
 
@@ -42,5 +40,9 @@ body {
 
 .panel.show {
     opacity: 1;
-    max-height: 500px;
+    max-height: 600px;
+}
+
+#footer {
+    color: #ffffff;
 }
