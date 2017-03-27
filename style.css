@@ -1,7 +1,7 @@
 body {
-    background-color: #336699;
+    background: linear-gradient(to right, #336699, #5b84ad);
     color: #ffffff;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Droid Sans', sans-serif;
     padding-top: 8%;
     padding-left: 15%;
 }
@@ -11,8 +11,7 @@ body {
 }
 
 .accordion {
-    font-family: 'Ubuntu', sans-serif;
-    background-color: #CECFCE;
+    font-family: 'Droid Sans', sans-serif;
     color: #444;
     cursor: pointer;
     padding: 18px;
